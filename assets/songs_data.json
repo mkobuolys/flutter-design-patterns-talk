@@ -1,0 +1,123 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Back In Black",
+      "artist": "AC/DC",
+      "duration": 255,
+      "collectionId": 1
+    },
+    {
+      "id": 2,
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "duration": 208,
+      "collectionId": 1
+    },
+    {
+      "id": 3,
+      "title": "T.N.T.",
+      "artist": "AC/DC",
+      "duration": 214,
+      "collectionId": 1
+    },
+    {
+      "id": 4,
+      "title": "Rock or Bust",
+      "artist": "AC/DC",
+      "duration": 183,
+      "collectionId": 4
+    },
+    {
+      "id": 5,
+      "title": "Realize",
+      "artist": "AC/DC",
+      "duration": 217,
+      "collectionId": 6
+    },
+    {
+      "id": 6,
+      "title": "Shot in The Dark",
+      "artist": "AC/DC",
+      "duration": 185,
+      "collectionId": 6
+    },
+    {
+      "id": 7,
+      "title": "Funky Town",
+      "artist": "Lipps Inc.",
+      "duration": 239,
+      "collectionId": 2
+    },
+    {
+      "id": 8,
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "duration": 213,
+      "collectionId": 2
+    },
+    {
+      "id": 9,
+      "title": "Take on Me",
+      "artist": "a-ha",
+      "duration": 185,
+      "collectionId": 2
+    },
+    {
+      "id": 10,
+      "title": "Numb",
+      "artist": "Linkin Park",
+      "duration": 185,
+      "collectionId": 3
+    },
+    {
+      "id": 11,
+      "title": "What I've Done",
+      "artist": "Linkin Park",
+      "duration": 205,
+      "collectionId": 3
+    },
+    {
+      "id": 12,
+      "title": "Bleed It Out",
+      "artist": "Linkin Park",
+      "duration": 166,
+      "collectionId": 3
+    },
+    {
+      "id": 13,
+      "title": "In The End",
+      "artist": "Linkin Park",
+      "duration": 216,
+      "collectionId": 5
+    },
+    {
+      "id": 14,
+      "title": "One Step Closer",
+      "artist": "Linkin Park",
+      "duration": 157,
+      "collectionId": 5
+    },
+    {
+      "id": 15,
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "duration": 208,
+      "collectionId": 5
+    },
+    {
+      "id": 16,
+      "title": "Papercut",
+      "artist": "Linkin Park",
+      "duration": 184,
+      "collectionId": 5
+    },
+    {
+      "id": 17,
+      "title": "Runaway",
+      "artist": "Linkin Park",
+      "duration": 183,
+      "collectionId": 5
+    }
+  ]
+}

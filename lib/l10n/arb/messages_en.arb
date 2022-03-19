@@ -1,0 +1,44 @@
+{
+  "@locale": "en",
+  "appTitle": "Patternify",
+  "@appTitle": {
+    "description": "App title text."
+  },
+  "playlistTitle": "Playlist",
+  "@playlistTitle": {
+    "description": "Playlist title text."
+  },
+  "playlistEmpty": "Playlist is empty.",
+  "@playlistEmpty": {
+    "description": "Empty playlist text."
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Settings title text."
+  },
+  "useCupertinoLabel": "Use Cupertino widgets.",
+  "@useCupertinoLabel": {
+    "description": "Cupertino switch label text."
+  },
+  "songsLabel": "{count,plural, =0{no songs} =1{1 song}, other{{count} songs}}",
+  "@songsLabel": {
+    "description": "Songs label",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBottomNavigationLabel": "Library",
+  "@libraryBottomNavigationLabel": {
+    "description": "Library bottom navigation bar item label."
+  },
+  "playlistBottomNavigationLabel": "Playlist",
+  "@playlistBottomNavigationLabel": {
+    "description": "Playlist bottom navigation bar item label."
+  },
+  "errorMessage": "Oops, something went wrong...",
+  "@errorMessage": {
+    "description": "Error message text."
+  }
+}

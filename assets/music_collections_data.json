@@ -1,0 +1,34 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "title": "AC/DC",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "title": "Random",
+      "parentId": null
+    },
+    {
+      "id": 3,
+      "title": "Linkin Park",
+      "parentId": null
+    },
+    {
+      "id": 4,
+      "title": "2000s",
+      "parentId": 1
+    },
+    {
+      "id": 5,
+      "title": "Hybrid Theory",
+      "parentId": 3
+    },
+    {
+      "id": 6,
+      "title": "POWER UP",
+      "parentId": 4
+    }
+  ]
+}
