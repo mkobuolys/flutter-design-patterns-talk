@@ -1,6 +1,6 @@
 # Patternify - Fluter Design Patterns example app for the conference talk.
 
-![Repository header](header.jpg)
+![Repository header](header.png)
 
 This example app shows how different Design Patterns could be used together in order to create a single application.
 
