@@ -4,6 +4,8 @@ import '../widgets/cupertino_widgets.dart';
 import 'platform_widgets_factory.dart';
 
 class CupertinoWidgetsFactory implements PlatformWidgetsFactory {
+  const CupertinoWidgetsFactory();
+
   @override
   PreferredSizeWidget createAppBar({
     required String title,

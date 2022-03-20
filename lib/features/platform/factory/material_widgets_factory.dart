@@ -4,6 +4,8 @@ import '../widgets/material_widgets.dart';
 import 'platform_widgets_factory.dart';
 
 class MaterialWidgetsFactory implements PlatformWidgetsFactory {
+  const MaterialWidgetsFactory();
+
   @override
   PreferredSizeWidget createAppBar({
     required String title,

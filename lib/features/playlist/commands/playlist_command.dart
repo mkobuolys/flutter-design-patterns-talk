@@ -9,12 +9,12 @@ abstract class IPlaylistCommand {
 }
 
 abstract class PlaylistCommand implements IPlaylistCommand {
+  PlaylistCommand(this.originator) : backup = originator.createMemento();
+
   @protected
   final Originator originator;
   @protected
   final Memento backup;
-
-  PlaylistCommand(this.originator) : backup = originator.createMemento();
 
   @override
   Playlist undo() {

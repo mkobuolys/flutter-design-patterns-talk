@@ -4,12 +4,12 @@ import '../models/models.dart';
 import 'playlist_command.dart';
 
 class AddToPlaylistCommand extends PlaylistCommand {
-  final Song song;
-
   AddToPlaylistCommand({
     required Originator originator,
     required this.song,
   }) : super(originator);
+
+  final Song song;
 
   @override
   Playlist execute() {

@@ -5,11 +5,11 @@ import '../../music_library/music_library.dart';
 
 @immutable
 class Playlist extends Equatable {
-  final List<Song> songs;
-
   const Playlist({
     this.songs = const [],
   });
+
+  final List<Song> songs;
 
   Playlist.copy(Playlist playlist) : this(songs: playlist.songs);
 

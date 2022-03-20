@@ -19,11 +19,11 @@ class App extends StatelessWidget {
   PlatformWidgetsFactory _createPlatformWidgetsFactory() {
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        return MaterialWidgetsFactory();
+        return const MaterialWidgetsFactory();
       case TargetPlatform.iOS:
-        return CupertinoWidgetsFactory();
+        return const CupertinoWidgetsFactory();
       default:
-        return MaterialWidgetsFactory();
+        return const MaterialWidgetsFactory();
     }
   }
 

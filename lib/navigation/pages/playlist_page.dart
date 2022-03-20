@@ -6,18 +6,13 @@ import '../../features/playlist/playlist.dart';
 import '../../l10n/l10n.dart';
 import '../../widgets/widgets.dart';
 
-class PlaylistPage extends StatefulWidget {
+class PlaylistPage extends StatelessWidget {
   static const route = '/playlist';
 
   const PlaylistPage({
     Key? key,
   }) : super(key: key);
 
-  @override
-  State<PlaylistPage> createState() => _PlaylistPageState();
-}
-
-class _PlaylistPageState extends State<PlaylistPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = context.l10n;
