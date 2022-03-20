@@ -11,7 +11,9 @@ abstract class AppRouter {
   ) {
     switch (settings.name) {
       case HomePage.route:
-        return widgetsFactory.createPageRouter((_) => const HomePage());
+        return widgetsFactory.createPageRouter(
+          builder: (_) => const HomePage(),
+        );
       case MusicLibraryPage.route:
         final arguments = settings.arguments as Map<String, dynamic>;
 
@@ -19,14 +21,23 @@ abstract class AppRouter {
         final items = arguments['items'] as List<MusicLibraryItem>;
 
         return widgetsFactory.createPageRouter(
-          (_) => MusicLibraryPage(title: title, musicLibraryItems: items),
+          builder: (_) => MusicLibraryPage(
+            title: title,
+            musicLibraryItems: items,
+          ),
         );
       case PlaylistPage.route:
-        return widgetsFactory.createPageRouter((_) => const PlaylistPage());
+        return widgetsFactory.createPageRouter(
+          builder: (_) => const PlaylistPage(),
+        );
       case SettingsPage.route:
-        return widgetsFactory.createPageRouter((_) => const SettingsPage());
+        return widgetsFactory.createPageRouter(
+          builder: (_) => const SettingsPage(),
+        );
       default:
-        return widgetsFactory.createPageRouter((_) => const HomePage());
+        return widgetsFactory.createPageRouter(
+          builder: (_) => const HomePage(),
+        );
     }
   }
 }

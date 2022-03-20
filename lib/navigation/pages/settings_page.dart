@@ -26,7 +26,7 @@ class SettingsPage extends StatelessWidget {
 
     return Scaffold(
       appBar: widgetsFactory.createAppBar(
-        l10n.settingsTitle,
+        title: l10n.settingsTitle,
         showSettingsButton: false,
       ),
       body: Column(
@@ -34,8 +34,8 @@ class SettingsPage extends StatelessWidget {
           ListTile(
             title: Text(l10n.useCupertinoLabel),
             trailing: widgetsFactory.createSwitcher(
-              defaultTargetPlatform == TargetPlatform.iOS,
-              _onUseCupertinoWidgetsChanged,
+              isActive: defaultTargetPlatform == TargetPlatform.iOS,
+              onChanged: _onUseCupertinoWidgetsChanged,
             ),
           ),
         ],

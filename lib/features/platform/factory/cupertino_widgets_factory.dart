@@ -5,24 +5,32 @@ import 'platform_widgets_factory.dart';
 
 class CupertinoWidgetsFactory implements PlatformWidgetsFactory {
   @override
-  PreferredSizeWidget createAppBar(
-    String title, {
+  PreferredSizeWidget createAppBar({
+    required String title,
     bool showSettingsButton = true,
   }) =>
       CupertinoAppBar(title: title, showSettingsButton: showSettingsButton);
 
   @override
-  Widget createBottomNavigationBar(int currentIndex, ValueSetter<int> onTap) =>
+  Widget createBottomNavigationBar({
+    required int currentIndex,
+    required ValueSetter<int> onTap,
+  }) =>
       CupertinoBottomNavigationBar(currentIndex: currentIndex, onTap: onTap);
 
   @override
   Widget createLoader() => const CupertinoLoader();
 
   @override
-  PageRoute createPageRouter(WidgetBuilder builder) =>
+  PageRoute createPageRouter({
+    required WidgetBuilder builder,
+  }) =>
       CupertinoPageRouter(builder: builder);
 
   @override
-  Widget createSwitcher(bool isActive, ValueSetter<bool> onChanged) =>
+  Widget createSwitcher({
+    required bool isActive,
+    required ValueSetter<bool> onChanged,
+  }) =>
       CupertinoSwitcher(isActive: isActive, onChanged: onChanged);
 }

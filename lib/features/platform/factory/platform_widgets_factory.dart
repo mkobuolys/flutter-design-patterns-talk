@@ -1,12 +1,20 @@
 import 'package:flutter/widgets.dart';
 
 abstract class PlatformWidgetsFactory {
-  PreferredSizeWidget createAppBar(
-    String title, {
+  PreferredSizeWidget createAppBar({
+    required String title,
     bool showSettingsButton = true,
   });
-  Widget createBottomNavigationBar(int currentIndex, ValueSetter<int> onTap);
+  Widget createBottomNavigationBar({
+    required int currentIndex,
+    required ValueSetter<int> onTap,
+  });
   Widget createLoader();
-  PageRoute createPageRouter(WidgetBuilder builder);
-  Widget createSwitcher(bool isActive, ValueSetter<bool> onChanged);
+  PageRoute createPageRouter({
+    required WidgetBuilder builder,
+  });
+  Widget createSwitcher({
+    required bool isActive,
+    required ValueSetter<bool> onChanged,
+  });
 }

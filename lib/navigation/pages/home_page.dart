@@ -7,7 +7,7 @@ import 'music_library_page.dart';
 import 'playlist_page.dart';
 
 class HomePage extends StatefulWidget {
-  static const route = '/home';
+  static const route = '/';
 
   const HomePage({
     Key? key,
@@ -54,12 +54,12 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: widgetsFactory.createAppBar(
-        _isMusicLibraryTab ? l10n.appTitle : l10n.playlistTitle,
+        title: _isMusicLibraryTab ? l10n.appTitle : l10n.playlistTitle,
         showSettingsButton: _isMusicLibraryTab,
       ),
       bottomNavigationBar: widgetsFactory.createBottomNavigationBar(
-        _currentPageIndex,
-        _onBottomNavigationBarItemTap,
+        currentIndex: _currentPageIndex,
+        onTap: _onBottomNavigationBarItemTap,
       ),
       body: PageView(
         controller: _pageController,

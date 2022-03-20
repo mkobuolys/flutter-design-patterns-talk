@@ -24,7 +24,10 @@ class MusicLibraryPage extends StatelessWidget {
 
     if (title != null && musicLibraryItems != null) {
       return Scaffold(
-        appBar: widgetsFactory.createAppBar(title!, showSettingsButton: false),
+        appBar: widgetsFactory.createAppBar(
+          title: title!,
+          showSettingsButton: false,
+        ),
         body: _MusicLibraryView(musicLibraryItems: musicLibraryItems!),
       );
     }
