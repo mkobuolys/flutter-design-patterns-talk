@@ -11,6 +11,8 @@ Design Patterns used in the app:
 - Command
 - Memento
 
+Too learn more about other Design Patterns, feel free to check the [Flutter Design Patterns repository](https://github.com/mkobuolys/flutter-design-patterns).
+
 ## Presentation
 
 Presentation slides are provided [here](presentation-slides.pdf).
